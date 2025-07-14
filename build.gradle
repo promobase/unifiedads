@@ -14,6 +14,7 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
@@ -25,6 +26,13 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.ai:spring-ai-starter-mcp-server-webmvc'
     implementation 'org.springframework.ai:spring-ai-starter-model-openai'
+    // facebook business sdk
+    implementation 'com.facebook.business.sdk:facebook-java-business-sdk:23.0.0'
+    // google ads sdk
+    implementation 'com.google.api-ads:google-ads:38.0.0'
+    // tiktok business sdk
+    // src: https://github.com/tiktok/tiktok-business-api-sdk/blob/main/java_sdk/README.md
+    implementation "io.swagger:business_api_client:1.0.0"
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
     developmentOnly 'org.springframework.ai:spring-ai-spring-boot-docker-compose'
