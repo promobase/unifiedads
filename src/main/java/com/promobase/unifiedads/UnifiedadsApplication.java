@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class UnifiedadsApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(UnifiedadsApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(UnifiedadsApplication.class, args);
+  }
 
 }
